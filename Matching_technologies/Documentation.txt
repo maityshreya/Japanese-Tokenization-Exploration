@@ -1,0 +1,28 @@
+DoD : Definition of Done : 
+
+1. Clarify if this requirement was clear or not. 
+Answer - Yes, the requirement was clear.
+2. Output is to document your learning journey , your findings here.→ 
+Learning Journey
+Step 1: Understanding the Problem
+
+Japanese language lacks spaces between words → requires special tokenizers.
+
+Tokenization impacts downstream tasks like matching, classification, retrieval, etc.
+
+Step 2: Understanding Each Tool
+
+MeCab: Grammar-based tokenizer. Good for general-purpose Japanese tokenization.Split Japanese into words (grammar + dictionary based)
+
+SudachiPy: Advanced tokenizer. Especially good for technical/business Japanese.
+
+SentencePiece: Subword tokenizer. Best suited for machine learning models and deep learning pipelines.
+
+Step 3: Usage Scenarios
+
+Keyword Matching → Prefer MeCab or SudachiPy.
+
+Business Texts → Prefer SudachiPy (handles domain-specific words better).
+
+Training ML models (like BERT) → Need SentencePiece.
+

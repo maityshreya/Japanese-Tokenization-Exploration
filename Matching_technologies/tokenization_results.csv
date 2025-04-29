@@ -1,0 +1,28 @@
+input_japanese_txt,algorithm,tokens,total_token_count,unique_token_count
+お元気ですか？,MeCab,"['お\udce5', '\udc85\udc83', '気\udce3', '\udc81\udca7', 'す\udce3', '\udc81\udc8b', '？']",7,7
+お元気ですか？,SudachiPy,"['お', '元気', 'です', 'か', '？']",5,5
+お元気ですか？,SentencePiece,"['▁お元気ですか', '?']",2,2
+今日はいい天気ですね。,MeCab,"['今\udce6', '\udc97\udca5', '\udce3\udc81', '\udcaf', '\udce3\udc81', '\udc84\udce3', '\udc81\udc84', '\udce5\udca4', '\udca9', '気\udce3', '\udc81\udca7', 'す\udce3', '\udc81\udcad', '\udce3\udc80', '\udc82']",15,14
+今日はいい天気ですね。,SudachiPy,"['今日', 'は', 'いい', '天気', 'です', 'ね', '。']",7,7
+今日はいい天気ですね。,SentencePiece,"['▁今日はいい天気ですね', '。']",2,2
+何を食べたいですか？,MeCab,"['何\udce3', '\udc82\udc92', '食\udce3', '\udc81\udcb9', 'た\udce3', '\udc81\udc84', '\udce3\udc81', '\udca7', 'す\udce3', '\udc81\udc8b', '？']",11,11
+何を食べたいですか？,SudachiPy,"['何', 'を', '食べ', 'たい', 'です', 'か', '？']",7,7
+何を食べたいですか？,SentencePiece,"['▁何を食べたいですか', '?']",2,2
+東京に行ったことがありますか？,MeCab,"['\udce6\udc9d', '\udcb1', '\udce4\udcba', '\udcac', '\udce3\udc81', '\udcab', '行\udce3', '\udc81\udca3', 'た\udce3', '\udc81\udc93', '\udce3\udc81', '\udca8', 'が\udce3', '\udc81\udc82', 'り\udce3', '\udc81\udcbe', 'す\udce3', '\udc81\udc8b', '？']",19,18
+東京に行ったことがありますか？,SudachiPy,"['東京', 'に', '行っ', 'た', 'こと', 'が', 'あり', 'ます', 'か', '？']",10,10
+東京に行ったことがありますか？,SentencePiece,"['▁東京に行ったことがありますか', '?']",2,2
+明日は休みです。,MeCab,"['\udce6\udc98', '\udc8e\udce6', '\udc97\udca5', '\udce3\udc81', '\udcaf', '\udce4\udcbc', '\udc91\udce3', '\udc81\udcbf', '\udce3\udc81', '\udca7', 'す\udce3', '\udc80\udc82']",12,11
+明日は休みです。,SudachiPy,"['明日', 'は', '休み', 'です', '。']",5,5
+明日は休みです。,SentencePiece,"['▁明日は休みです', '。']",2,2
+一緒に映画を見に行きましょう。,MeCab,"['\udce4\udcb8', '\udc80\udce7', '\udcb7', '\udc92\udce3', '\udc81\udcab', '\udce6\udc98', '\udca0\udce7', '\udc94\udcbb', 'を\udce8', '\udca6', '\udc8b\udce3', '\udc81\udcab', '行\udce3', '\udc81\udc8d', '\udce3\udc81', '\udcbe', 'し\udce3', '\udc82\udc87', '\udce3\udc81', '\udc86。']",20,18
+一緒に映画を見に行きましょう。,SudachiPy,"['一緒', 'に', '映画', 'を', '見', 'に', '行き', 'ましょう', '。']",9,8
+一緒に映画を見に行きましょう。,SentencePiece,"['▁一緒に映画を見に行きましょう', '。']",2,2
+趣味は何ですか？,MeCab,"['\udce8\udcb6', '\udca3', '\udce5\udc91', '\udcb3', '\udce3\udc81', '\udcaf', '何\udce3', '\udc81\udca7', 'す\udce3', '\udc81\udc8b', '？']",11,11
+趣味は何ですか？,SudachiPy,"['趣味', 'は', '何', 'です', 'か', '？']",6,6
+趣味は何ですか？,SentencePiece,"['▁趣味は何ですか', '?']",2,2
+コーヒーが好きです。,MeCab,"['\udce3\udc82', '\udcb3', '\udce3\udc83', '\udcbc', 'ヒ\udce3', '\udc83\udcbc', 'が\udce5', '\udca5', '\udcbd', 'き\udce3', '\udc81\udca7', 'す\udce3', '\udc80\udc82']",13,13
+コーヒーが好きです。,SudachiPy,"['コーヒー', 'が', '好き', 'です', '。']",5,5
+コーヒーが好きです。,SentencePiece,"['▁コーヒーが好きです', '。']",2,2
+犬を飼っています。,MeCab,"['\udce7\udc8a', '\udcac', 'を\udce9', '\udca3', '\udcbc', '\udce3\udc81', '\udca3', '\udce3\udc81', '\udca6', '\udce3\udc81', '\udc84\udce3', '\udc81\udcbe', 'す\udce3', '\udc80\udc82']",14,11
+犬を飼っています。,SudachiPy,"['犬', 'を', '飼っ', 'て', 'い', 'ます', '。']",7,7
+犬を飼っています。,SentencePiece,"['▁犬を飼っています', '。']",2,2
